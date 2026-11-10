@@ -1,0 +1,459 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+    
+body{
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.75rem;
+      line-height: 1.5;
+}
+
+img{
+      display: block;
+      max-width: 100%;
+ }
+
+a{
+      color: rgba(50, 57, 67);
+      text-decoration: none;
+}
+
+ 
+.container {
+      width: 70%;
+      max-width: 80%;
+      margin: 0 auto;   
+}
+
+.section-title {
+      color:rgba(50, 57, 67);
+      font-size: 1rem;
+      font-weight: 500px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+
+ .navBar {
+      height: 35px;
+      background: white;
+}
+
+ .nav{
+      width: 900px;
+      max-width: 80%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+.navLinks {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      gap: 80px;
+      font-size: 9px;
+      color: rgba(50, 57, 67);
+}
+
+.navLinks .applyButton {
+      color: white;
+      background: rgba(50, 57, 67);
+      padding: 5px 20px;
+}
+
+    
+.mission{
+      background: rgba(242, 243, 245);
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+ }
+
+.missionStatement{
+      width: 70%;
+      max-width: 80%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      min-height: 280px;
+}
+
+.missionStatementInfo{
+      padding: 8px;
+    }
+
+    
+
+   .mission h1{
+      font-size: 1.5rem;
+      line-height: 1.5;
+      font-weight: 400;
+      color: rgba(50, 57, 67);
+      margin-top: 20px;
+      margin-bottom: 5px;
+ }
+
+ .missionDescription {
+      width: 350px;
+      max-width: 100%;
+      font-size: 0.7rem;
+      line-height: 1.5;
+      color:  rgba(50, 57, 67);
+      margin-bottom: 12px;
+    }
+
+    .formOne{
+      display: flex;
+      width: 350px;
+      max-width: 100%;
+ }
+
+.formOne input {
+      flex: 1;
+      min-width: 0;
+      height: 30px;
+      border: 1px solid rgba(50, 57, 67);
+      background: white;
+      padding: 0 10px;
+      font-size: 0.5rem;
+ }
+
+.formOne button {
+      width: 80px;
+      height: 30px;
+      margin-left: 5px;
+      border: 1px solid rgba(50, 57, 67);
+      background: rgba(184, 197, 206);
+      color: #fff;
+      font-size: 0.5rem;
+}
+
+.grayLady {
+      height: 300px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+
+      
+ }
+
+    .main {
+      padding: 25px 0 30px;
+      background: white;
+}
+
+ .mainHeading{
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 25px;
+      color: rgba(50, 57, 67);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      font-weight: 600;
+    }
+
+.mainTables{
+      display: flex;
+      flex-direction: row;
+      gap: 35px;
+      max-width: 600px;
+      margin: 20px auto ;
+    }
+
+ .table {
+      border-top: 1px solid pink;
+      font-size: 0.7rem;
+      line-height: 1.5;
+      color: rgba(50, 57, 67);
+    }
+
+    .table span{
+      color: rgba(50, 57, 67);
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+
+    .mainInfo{
+      text-align: center;
+      max-width: 650px;
+      margin: auto;
+      color: rgba(50, 57, 67);
+      font-size: 0.5rem;
+      font-style: italic;
+    }
+
+
+
+ .history {
+      background:rgba(242, 243, 245);
+      padding: 25px 0;
+ }
+
+.historyTable {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+ }
+
+
+.history h2 {
+      color: rgba(50, 57, 67);
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+ }
+
+    .history p {
+      font-size: 0.7rem;
+      line-height: 1.5;
+      color: rgba(50, 57, 67);
+    }
+
+    .historyPhotos {
+      display: grid;
+      gap: 14px;
+    }
+
+ .history-photo {
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+   display: block;
+ }
+
+
+    .aboutUs {
+      padding: 30px 0;
+      background: white;
+    }
+
+ .founder {
+      border: 1px solid rgba(242, 243, 245);
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+
+.founder h3{
+      font-size: 11px;
+      color: rgba(50, 57, 67);
+      margin-bottom: 5px;
+    }
+
+ .founder h4{
+      font-size: 0.75rem;
+      color: rgba(50, 57, 67);
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .founder p {
+      font-size: 0.6rem;
+      line-height: 1.5;
+      color: rgba(50, 57, 67);
+    }
+
+ .foundations{
+      display: flex;
+      gap: 50px;
+    }
+
+.foundation h3 {
+      color: rgba(50, 57, 67);
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+    }
+
+.foundation p {
+      font-size: 0.6rem;
+      line-height: 1.5;
+      color: rgba(50, 57, 67);
+    }
+
+
+ .newsletter {
+      background: rgba(184, 196, 208);
+      padding: 12px 0;
+    }
+
+.insideNewsletter{
+      width: 900px;
+      max-width: 80%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+  .newsletterHead {
+      color: white;
+      font-size: 0.7rem;
+    }
+
+    .newsletterForm {
+      display: flex;
+      width: 400px;
+    }
+
+ .newsletterForm input {
+      flex: 1;
+      height: 25px;
+      border: 0;
+      padding: 0 10px;
+      font-size: 8px;
+    }
+
+    .newsletterForm button {
+      width: 80px;
+      border: 0;
+      background: rgba(143, 156, 162);
+      color: white;
+      font-size: 8px;
+    }
+
+
+    footer {
+      background: rgba(143, 156, 162);
+      color: white;
+      padding: 15px 0;
+    }
+
+.topFooter{
+      width: 900px;
+      max-width: 80%;
+      margin: 0 auto 15px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 14px;
+      font-size: 0.5rem;
+      color: white;
+ }
+
+ .topFooter a{
+  color: white;
+ }
+
+ .footerInfo{
+      width: 70%;
+      max-width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+ .footerSection h4 {
+      font-size: 0.4rem;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+.footerSection a {
+      display: block;
+      font-size: 0.4rem;
+      line-height: 1.5;
+      color:  white;
+}
+
+    .copyright {
+      width: 900px;
+      max-width: 80%;
+      margin: 15px auto ;
+      padding-top: 8px;
+      border-top: 1px solid gray;
+      color: white;
+      font-size: 0.4rem;
+    }
+
+
+
+/*Laptop*/
+@media (max-width: 1024px) {
+  .nav, .navLinks{
+  gap: 65px;
+  }
+}
+
+
+/*Tablet*/
+@media (max-width: 768px){
+  .navLinks{
+  gap: 50px;
+}
+
+.grayLady{
+  height: 200px;
+  width: 300px;
+}
+
+  .mainTables{
+    flex-direction: column;
+    text-align:center;
+  }
+
+  .historyTable{
+    flex-direction: column;
+  }
+
+  .historySections h2{
+    text-align: center;
+  }
+
+  .foundations{
+    flex-direction: column;
+  }
+
+  .foundations h3{
+    text-align: center;
+  }
+  }
+
+
+
+/*Mobile*/  
+@media (max-width: 480px) {
+
+.container{
+  width: 100%;
+}
+
+.navLinks{
+  gap: 15px;
+}
+
+.grayLady{
+  display: none;
+}
+
+.mainTables{
+    flex-direction: column;
+    text-align:center;
+}
+
+  .historyTable{
+    flex-direction: column;
+  }
+
+  .historySections h2{
+    text-align: center;
+  }
+
+  .foundations{
+    flex-direction: column;
+  }
+
+  .foundations h3{
+    text-align: center;
+  }
+}
