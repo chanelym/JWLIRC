@@ -2,7 +2,7 @@
 
 Japanese Women's Leadership Initiative (JWLI) is a static website built using HTML and CSS for a nonprofit organization dedicated to empowering Japanese women to become leaders and create positive social change in Japan. The website highlights the organization's mission, history, leadership development programs, and partnerships. Visitors can learn about JWLI's leadership training opportunities, explore information about its founder and participating organizations, and discover ways to stay connected through newsletters and social media.
 
-![Uploading JWLI.PNG…]()
+<img width="1778" height="914" alt="JWLI" src="https://github.com/user-attachments/assets/b5d1d036-81f1-40f3-9921-7f26158a5a95" />
 
 
 ## Deployed Site
